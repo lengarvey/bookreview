@@ -1,0 +1,8 @@
+<p>Movie list:</p>
+<ul>
+  <% @reviews.each do |movie| %>
+    <li><%= movie.movie_name %></li>
+  <% end %>
+</ul>
+
+<%= params.inspect %>

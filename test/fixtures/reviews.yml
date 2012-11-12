@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  movie_name: MyString
+  reviewer_name: MyString
+  synopsis: MyText
+
+two:
+  movie_name: MyString
+  reviewer_name: MyString
+  synopsis: MyText

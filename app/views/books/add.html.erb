@@ -1,0 +1,7 @@
+<h2>Recent book: <%= @book_name %></h2>
+<%= form_tag :action => 'add' do %>
+  <p>Book name: <%= text_field_tag 'book_mame', @book_name %></p>
+  <%= submit_tag 'Add Book' %>
+<% end %>
+
+<%= @params.inspect %>
